@@ -32,10 +32,10 @@ dnnAngularDemo.controller("DemoFormController", ["DemoService", function (demoSe
 
     self.items = {};
 
-    //self.updateItems = function updateItems(dataFromServer) {
-    //    self.items = dataFromServer;
-    //}
+    self.updateItems = function updateItems(dataFromServer) {
+        self.items = dataFromServer;
+    }
 
-    //demoService.getItems()
-    //    .then(self.updateItems);
+    demoService.getItems()
+        .then(self.updateItems);
 }]);
