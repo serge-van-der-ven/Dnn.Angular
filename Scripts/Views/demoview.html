@@ -1,0 +1,11 @@
+﻿<ng-form name="demoForm" ng-controller="DemoFormController as vm">
+    <span>{{ vm.message }}</span>
+    <ul>
+        <li ng-repeat="item in vm.items | orderBy:'Name'">
+            <div>
+                <div>{{ item.Name }}</div>
+                <div>{{ item.PhoneNumber }}</div>
+            </div>
+        </li>
+    </ul>
+</ng-form>
