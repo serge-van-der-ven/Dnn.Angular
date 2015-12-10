@@ -28,5 +28,9 @@ The file "dnn.angular.js" contains the actual AngularJS bootstrapping (based upo
 As you can see in the example, the DNN moduleId is never used within the AngularJS app (why should you), yet server side it is available in the ActiveModule property of the DnnApiController, just as you would expect.
 Please note that the example itself is of no real use. It just demonstrates how AngularJS / HTML / DNN / WebAPI work realy nice together without to much coding.
 
+## Next Steps
+I will most likely create a DNN JavaScript Library with the Angular 4 DNN bootstrapping so it can be easilly installed and referenced by developers. Maybe even a nuget package, who knows...
+
 ## Finally
 I will add some more documentation later. Feel free to contact me for questions or remarks. We've already build many modules like this and it actually works awesome!
+
