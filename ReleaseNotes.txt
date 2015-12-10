@@ -1,0 +1,13 @@
+﻿<h3>Dnn.Angular.Demo</h3>
+<p class="Contributor">
+	XCESS expertise center<br />
+	<a href="mailto:serge.van.der.ven@xcess.nl">serge.van.der.ven@xcess.nl</a><br />
+	<a href=http://www.xcess.nl>http://www.xcess.nl</a><br />
+</p>
+<hr/>
+<div class="License">
+	<h3>About the Dnn.Angular.Demo</h3>
+	<p class="Owner">
+		<b>Version 01.00.00</b><br /><br />
+	</p>
+</div>
