@@ -50,10 +50,10 @@ namespace Dnn.Angular.Demo.Components
             var desktopModuleFolder = this.ModuleConfiguration.DesktopModule.FolderName;
             var scriptFolder = Path.Combine(Globals.DesktopModulePath, desktopModuleFolder, "Scripts");
 
-            ClientResourceManager.RegisterScript(this.Page, scriptFolder + "/angular.min.js", FileOrder.Js.jQuery);
-            ClientResourceManager.RegisterScript(this.Page, scriptFolder + "/angular-route.min.js", FileOrder.Js.jQuery);
-            ClientResourceManager.RegisterScript(this.Page, scriptFolder + "/angular-resource.min.js", FileOrder.Js.jQuery);
-            ClientResourceManager.RegisterScript(this.Page, scriptFolder + "/dnn.angular.js", FileOrder.Js.DefaultPriority);
+            ClientResourceManager.RegisterScript(this.Page, scriptFolder + "/angular.min.js", 50);
+            ClientResourceManager.RegisterScript(this.Page, scriptFolder + "/angular-route.min.js", 52);
+            ClientResourceManager.RegisterScript(this.Page, scriptFolder + "/angular-resource.min.js", 54);
+            ClientResourceManager.RegisterScript(this.Page, scriptFolder + "/dnn.angular.js", 60);
 
             base.OnInit(e);
         }

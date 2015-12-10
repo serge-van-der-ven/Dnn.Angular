@@ -30,11 +30,12 @@ using System.Collections.Generic;
 using System.Web.Http;
 using Dnn.Angular.Demo.Services.ViewModels;
 using DotNetNuke.Common.Utilities;
+using DotNetNuke.Security;
 using DotNetNuke.Web.Api;
 
 namespace Dnn.Angular.Demo.Services
 {
-    // [DnnModuleAuthorize(AccessLevel = SecurityAccessLevel.View)]
+    [DnnModuleAuthorize(AccessLevel = SecurityAccessLevel.View)]
     public class DemoController : DnnApiController
     {
         [HttpGet]
