@@ -1,5 +1,6 @@
 ﻿<ng-form name="demoForm" ng-controller="DemoFormController as vm">
-    <span>{{ vm.message }}</span>
+    <p>{{ vm.message }}</p>
+    <p>[Resx:{key:"Message"}]</p>
     <ul>
         <li ng-repeat="item in vm.items | orderBy:'Name'">
             <div>
