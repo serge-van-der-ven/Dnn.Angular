@@ -29,7 +29,7 @@ As you can see in the example, the DNN moduleId is never used within the Angular
 Please note that the example itself is of no real use. It just demonstrates how AngularJS / HTML / DNN / WebAPI work realy nice together without to much coding.
 
 ## (DNN) Localization? Yes it does!
-[new page](./Localization.md)
+[Using DNN localization in your HTML templates](./Localization.md)
 
 ## Next Steps
 I will most likely create a DNN JavaScript Library with the Angular 4 DNN bootstrapping so it can be easilly installed and referenced by developers. Maybe even a nuget package, who knows...
