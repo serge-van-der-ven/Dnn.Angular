@@ -25,9 +25,7 @@
 // </summary>
 //  --------------------------------------------------------------------------------------------------------------------
 
-using System;
 using System.Globalization;
-using System.IO;
 using System.Text;
 using System.Web;
 using DotNetNuke.Common.Utilities;
@@ -35,6 +33,10 @@ using DotNetNuke.Entities.Modules;
 using DotNetNuke.Entities.Portals;
 using DotNetNuke.Services.Exceptions;
 using DotNetNuke.Services.Localization;
+
+// NOTICE!!!!
+// Ensure that this handler is registered in the web.config, like:
+// <add name="Htm5" verb="*" path="*.html" type="Dnn.Angular.Demo.Components.Handlers.DnnHtmlHandler, Dnn.Angular.Demo" preCondition="integratedMode" />
 
 namespace Dnn.Angular.Demo.Components.Handlers
 {
